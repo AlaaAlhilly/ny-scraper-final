@@ -9,7 +9,7 @@ module.exports = {
         art_array[i].saved = false;
         art_array[i].note = [];
       }
-        Article.collection.insertMany(art_array, { ordered: false }, function(err, docs) {
+        Article.collection.insert(art_array, { ordered: false }, function(err, docs) {
           callback(err, docs);
         });
     });
