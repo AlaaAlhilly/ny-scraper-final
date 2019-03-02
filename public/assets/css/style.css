@@ -1,0 +1,59 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto Slab', serif;
+}
+
+.btn-danger {
+  background-color: #dc9a9a;
+  border-color: #dc9a9a;
+}
+
+.btn-danger:hover {
+  background-color: #764747;
+  border-color: #764747;
+}
+
+.panel-default>.panel-heading {
+  background-color: #3f3535;
+  color: #fff;
+}
+
+.panel-default {
+  border-color: #3f3535;
+}
+
+.artLink {
+  color: #dc9a9a;
+}
+
+.saved-buttons {
+  margin-right: 1em;
+}
+
+.noteText {
+  color: #dc9a9a;
+}
+
+.deletex {
+  color: #dc9a9a;
+}
+
+.alert-warning {
+	color: #fff;
+	background-color: #dc9a9a;
+	border-color: #dc9a9a;
+}
+
+.main-img {
+	margin-bottom: 2em;
+	border-top: 2px solid #3f3535;
+	border-bottom: 2px solid #3f3535;
+}
+
+.savedArt {
+	margin: 0 auto;
+	width: 80%;
+}
